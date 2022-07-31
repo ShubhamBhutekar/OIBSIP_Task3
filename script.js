@@ -22,13 +22,13 @@ const calculateTemp = () => {
 
 
 
-    
+
     let result;
     if (valeTemp == "cel") {
-     
+
         result = celTOfah(numberTemp);
         document.getElementById('resultContainer').innerHTML = `= ${result}°Fahrenheit`;
-    }else{
+    } else {
         result = fahTOcel(numberTemp);
         document.getElementById('resultContainer').innerHTML = `= ${result}°Celsius`;
     }

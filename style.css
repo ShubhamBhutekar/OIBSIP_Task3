@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap');
 
-*{
+* {
     font-family: 'Roboto Slab', serif;
     text-rendering: optimizeLegibility;
 }
 
-body{
+body {
     width: 100%;
     height: 75vh;
     display: grid;
@@ -19,7 +19,7 @@ body{
 
 
 
-form{
+form {
     background-color: #DDD;
     padding: 30px;
     display: flex;
@@ -28,12 +28,12 @@ form{
     border-radius: 30px;
 }
 
-#tempCalc label{
+#tempCalc label {
     font-size: 45px;
     font-style: italic;
     color: rgb(197, 111, 49);
 }
 
-#resultContainer{
+#resultContainer {
     font-size: 35px;
 }
