@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap');
+
+*{
+    font-family: 'Roboto Slab', serif;
+    text-rendering: optimizeLegibility;
+}
+
+body{
+    width: 100%;
+    height: 75vh;
+    display: grid;
+    background-image: url(img/Solution.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    place-items: center;
+}
+
+
+
+form{
+    background-color: #DDD;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 10px 6px -6px #777;
+    border-radius: 30px;
+}
+
+#tempCalc label{
+    font-size: 45px;
+    font-style: italic;
+    color: rgb(197, 111, 49);
+}
+
+#resultContainer{
+    font-size: 35px;
+}
